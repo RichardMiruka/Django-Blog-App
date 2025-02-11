@@ -130,4 +130,7 @@ GRAPHENE = {
     "SCHEMA": "blog.schema.schema",
 }
 
+# Configure django-cors-headers
+# This setting will allow requests only from your front end,
+# which will run on port 5173 locally.
 CORS_ALLOWED_ORIGINS = ["http://localhost:5173"]
