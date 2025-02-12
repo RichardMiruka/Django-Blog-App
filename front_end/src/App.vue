@@ -8,9 +8,6 @@ import { RouterLink, RouterView } from "vue-router";
       <h1>My Blog 🐾</h1>
       <nav>
         <RouterLink to="/">Posts</RouterLink>
-        <RouterLink :to="{ name: 'author' }">Author</RouterLink>
-        <RouterLink :to="{ name: 'post' }">Post</RouterLink>
-        <RouterLink :to="{ name: 'tag' }">Tag</RouterLink>
       </nav>
     </div>
   </header>
